@@ -1,0 +1,42 @@
+{
+  "subCategory": "Cryptocurrency Transaction",
+  "arbitrableAddress": "0xE2Dd8CCe2c33a04215074ADb4B5820B765d8Ed9D",
+  "title": "Sell Eth for GoerliETH",
+  "description": "Goerli address 0x41cD6228341eA33e8D9659f09bf0e5AAdc54c5e7 should receive GoerliETH from the sender before Feb 12 2023 16:50 UTC.",
+  "sender": "0x41cD6228341eA33e8D9659f09bf0e5AAdc54c5e7",
+  "receiver": "0x0b05239445CD05c96dE61041f834d5551497c359",
+  "amount": "0.001",
+  "timeout": 1230,
+  "token": {
+    "name": "Ethereum",
+    "ticker": "ETH",
+    "symbolURI": "/static/media/eth.33901ab6.png",
+    "address": null,
+    "decimals": 18
+  },
+  "extraData": {
+    "Blockchain": "Goerli",
+    "Address": "0x41cD6228341eA33e8D9659f09bf0e5AAdc54c5e7",
+    "Cryptoasset Description": "GoerliETH",
+    "Due Date (Local Time)": "2023-02-12T16:50:00.000Z"
+  },
+  "invoice": false,
+  "category": "Escrow",
+  "question": "Which party abided by terms of the contract?",
+  "rulingOptions": {
+    "type": "single-select",
+    "titles": [
+      "Refund Sender",
+      "Pay Receiver"
+    ],
+    "descriptions": [
+      "Select to return funds to the Sender",
+      "Select to release funds to the Receiver"
+    ]
+  },
+  "evidenceDisplayInterfaceURI": "/ipfs/QmfPnVdcCjApHdiCC8wAmyg5iR246JvVuQGQjQYgtF8gZU/index.html",
+  "aliases": {
+    "0x41cD6228341eA33e8D9659f09bf0e5AAdc54c5e7": "sender",
+    "0x0b05239445CD05c96dE61041f834d5551497c359": "receiver"
+  }
+}
